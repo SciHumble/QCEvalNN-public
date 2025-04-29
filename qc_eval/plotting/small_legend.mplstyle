@@ -1,0 +1,6 @@
+legend.fontsize: 5
+legend.handlelength: 1.5
+legend.handletextpad: 0.2
+legend.borderpad: 0.3
+legend.columnspacing: 0.4
+legend.title_fontsize: 7

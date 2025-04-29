@@ -1,0 +1,36 @@
+# Use LaTeX for all text rendering
+text.usetex: True
+
+# Fonts
+font.family: serif
+font.size: 9
+
+# Axis labels
+axes.labelsize: 9
+axes.titlesize: 9
+
+# Tick labels
+xtick.labelsize: 7
+ytick.labelsize: 7
+
+# Legend
+legend.fontsize: 7
+
+# Lines
+lines.linewidth: 1.0
+lines.markersize: 4
+
+# Grid
+grid.linestyle: --
+grid.linewidth: 0.5
+grid.alpha: 0.7
+
+# Make sure PGF ignores matplotlib fonts
+pgf.rcfonts: False
+
+# Savefig
+savefig.bbox: tight
+savefig.pad_inches: 0.05
+
+# LaTeX preamble
+text.latex.preamble: \usepackage{amsmath} \usepackage{bm} \usepackage{siunitx} \usepackage{fixltx2e}

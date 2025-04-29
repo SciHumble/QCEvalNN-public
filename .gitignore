@@ -1,0 +1,54 @@
+
+#### `.gitignore`
+```plaintext
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Ignore log files
+*.log
+*.log.*
+logs/
+log/
+app.log
+error.log
+*.debug.log
+
+# Ignore .idea
+.idea
+.idea/
+
+# pytest cache
+.pytest_cache
+.pytest_cache/
+qc_eval/.pytest_cache/
+
+# Sandboxes
+sandbox.*
+
+# Autosaves
+*.pt
+*.npy
+*.csv
+
+# Credentials
+*.ini
