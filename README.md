@@ -1,18 +1,24 @@
-# QNN
+# QCEvalNN
 
-This package is for my master thesis about quantum neural networks (QNN) and uses Qiskit for its main calculations.
+This package is for my master thesis about quantum convolutional neural networks (QCNN) and classical convolutional neural networks (CCNN). For the simulation of QCNNs is PennyLane utilized and for the classical equivalent is torch used.
 
 ## Installation
 
-[Instructions on how to install your package]
+### 1. Clone the Repository
+```bash
+git clone https://github.com/SciHumble/QCEvalNN-public.git
+cd QCEvalNN-public
+```
 
-## Usage
+### 2. Insall Required Packages
+```bash
+pip install -r requirements.txt
+```
 
-[Examples on how to use your package]
-
-## Contributing
-
-We welcome contributions! Please follow these guidelines to contribute to the project.
+### Requirements
+Make sure you have installed:
+ * Python 3.9 or newer
+ * `pip` (Python package installer)
 
 ### Commit Rules
 
